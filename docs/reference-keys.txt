@@ -1,3 +1,7 @@
+fig:unnamed-chunk-1
+fig:unnamed-chunk-2
 introduction
 using-dmptool
+log-into-your-dmptool-account-and-view-your-personal-dashboard
+create-a-new-plan
 additional-resources
