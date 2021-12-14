@@ -1,7 +1,10 @@
 fig:unnamed-chunk-1
 fig:unnamed-chunk-2
+fig:unnamed-chunk-3
+fig:unnamed-chunk-4
 introduction
 using-dmptool
 log-into-your-dmptool-account-and-view-your-personal-dashboard
 create-a-new-plan
+customize-write-and-compile-the-data-management-plan
 additional-resources

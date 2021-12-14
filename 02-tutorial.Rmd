@@ -14,7 +14,26 @@ Then, select University of Colorado, Boulder; once you click **Go**, you will be
 knitr::include_graphics("images/pic2.png")
 ```
 
+This will bring you to your personal DMP Dashboard. Here, you can begin a new DMP; resume working on a saved DMP (in-progress DMPs will show up under the **My Dashboard** sign if they exist); or view sample DMPs created by other CU researchers (under the banner that reads **University of Colorado Boulder Plans**)
+
+```{r, echo=FALSE, fig.cap="Your Personal DMPTool Dashboard"}
+knitr::include_graphics("images/pic3.png")
+```
+
 ## Create a new plan
+
+To initiate a new plan, click the blue **Create plan** button (see figure 2.3), which will bring you to an interface like the one below: 
+
+```{r, echo=FALSE, fig.cap="Initiate a new plan"}
+knitr::include_graphics("images/pic4.png")
+```
+
+Here, you can provide relevant details about your project, such as its name, the funding organization, and the DMP template you would like to use. In this example, we've named our project "Demonstration", and have selected the NSF and the generic NSF DMP template under the funder and template headings. Once you've filled out this information, go ahead and click the blue **Create plan** button, as in Figure 2.4. 
+
+## Customize, Write, and Compile the Data Management Plan
+
+
+
 
 
 
