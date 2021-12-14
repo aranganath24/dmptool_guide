@@ -1,8 +1,8 @@
 book_filename: "bookdownproj"
 output_dir: docs
 delete_merged_file: true
-edit: https://github.com/aranganath24/dmptool_guide
-view: https://github.com/aranganath24/dmptool_guide
+edit: https://github.com/aranganath24/dmptool_guide/blob/main/index.Rmd
+view: https://github.com/aranganath24/dmptool_guide/blob/main/index.Rmd
 language:
   ui:
     chapter_name: ""
