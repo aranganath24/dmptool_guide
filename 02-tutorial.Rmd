@@ -16,7 +16,7 @@ knitr::include_graphics("images/pic2.png")
 
 This will bring you to your personal DMP Dashboard. Here, you can begin a new DMP; resume working on a saved DMP (in-progress DMPs will show up under the **My Dashboard** sign if they exist); or view sample DMPs created by other CU researchers (under the banner that reads **University of Colorado Boulder Plans**)
 
-```{r, echo=FALSE, fig.cap="Your Personal DMPTool Dashboard"}
+```{r, echo=FALSE, fig.cap="Your personal DMPTool dashboard"}
 knitr::include_graphics("images/pic3.png")
 ```
 
@@ -31,6 +31,79 @@ knitr::include_graphics("images/pic4.png")
 Here, you can provide relevant details about your project, such as its name, the funding organization, and the DMP template you would like to use. In this example, we've named our project "Demonstration", and have selected the NSF and the generic NSF DMP template under the funder and template headings. Once you've filled out this information, go ahead and click the blue **Create plan** button, as in Figure 2.4. 
 
 ## Customize, Write, and Compile the Data Management Plan
+
+At this point, we are on a page that looks something like the one below. Note the six tabs running along the top of the page:
+
+```{r, fig.cap="Environment to assemble DMP", echo=FALSE}
+knitr::include_graphics("images/pic5.png")
+```
+
+By systematically working through the various sections associated with those tabs, you will be able to generate a data management plan. Make sure to save your work on the sections as you go. 
+
+Also, note the **Select Guidance**  section on the right. Make sure that both the **DMPTool** and **University of Colorado Boulder (CU Boulder)** buttons are selected. This ensures that as you work through the material within the **Write Plan** tab, you will be able to see relevant guidance on how to complete various sections of your DMP. 
+
+In the first tab, **Project Details**, you can enter your project abstract and some additional information. The second tab, **Collaborators**, will look like the image below; tere, you can invite collaborators to participate in creating the DMP, and regulate their access to the in-progress document.
+
+```{r, echo=FALSE, fig.cap="Add collaborators"}
+knitr::include_graphics("images/pic6.png")
+```
+
+Once you've invited collaborators (if relevant) and set their permissions, you can click the **Write Plan** tab, which will bring you to a page that looks like the one below. Each section on this page corresponds to a required section of the DMP (these sections are based on the template that was chosen earlier). Click the **+** to expand a section and work on it, or click **expand all** to open all the sections at once. 
+
+```{r, echo=FALSE, fig.cap="Write DMP sections"}
+knitr::include_graphics("images/pic7.png")
+```
+
+To take an example, let’s expand the **Data and metadata standards** section, which will look like the image below, once open. We can write (or paste) the text for this section into the text box, and click **Save** (note that it’s necessary to click **Save** after every DMP section within the **Write Plan** is completed). 
+
+```{r, echo=FALSE, fig.cap="Completing an individual section within the 'Write Plan' tab"}
+knitr::include_graphics("images/pic8.png")
+```
+
+On the right of the image above, you can view relevant information on a section or advice on how to complete it. To view this information, make sure that the **Guidance** button is selected (when selected, it will appear white). Once the **Guidance** button is selected, you'll see buttons corresponding to different sources. To see instructions from the funding agency (here, NSF) or DMPTool itself, click on those buttons. To see CU Boulder-specific information on completing a given section (i.e. information on CU-specific resources or tools that might be relevant to a given section), click the **CU Boulder** button. There is CU Boulder-specific guidance for all sections in the **Write Plan** tab (assuming we’re using the generic NSF template) with the exception of the first section (on Types of data produced). 
+
+## Download and Export the DMP
+
+After completing the various sections of the DMP within the **Write Plan** tab, and adding relevant information within the **Research outputs** tab, you can download your DMP (which is compiled from the information that has been entered in the various tabs), within the **Download** tab. The **Download** section will look something like this:
+
+
+```{r, echo=FALSE, fig.cap="Download DMP"}
+knitr::include_graphics("images/pic9.png")
+```
+
+After customizing the plan according to the desired specifications, we can then click **Download Plan**, at which point DMPTool will generate a complete data management plan in the desired file format (in this case, PDF), based on the text we entered in the various sections above.
+
+When opening up the exported file, it will look something like this:
+
+```{r, echo=FALSE, fig.cap="Exported DMP opened in new tab"}
+knitr::include_graphics("images/pic10.png")
+```
+
+## Have someone review the draft DMP 
+
+After generating a draft DMP using DMPTool, it is often useful to have someone review and offer feedback on your draft. In particular, we encourage CU researchers to reach out to the [Center for Research Data and Digital Scholarship](https://www.colorado.edu/crdds/), which has librarians who are able to review DMPs, and offer advice on possible revisions before you submit the plan to the granting agency. To set up an appointment with a CRDDS librarian, please send an email to [crdds@colorado.edu](mailto:crdds@colorado.edu). 
+
+## Revise the DMP
+
+To implement revisions, you can access your DMP (and its various sections) from your personal DMPTool dashboard. Simply click on the relevant project title, and DMPTool will take you back into that project, where you implement necessary revisions to the relevant sections, and then re-export the revised DMP:
+
+```{r, echo=FALSE, fig.cap="Access DMP from dashboard to make revisions"}
+knitr::include_graphics("images/pic11.png")
+```
+
+Also, note that it's not necessary to complete the DMP in one session; so long as you save the DMPTool sections as you go, it's always possible to return to an in-progress or incomplete DMP from your dashboard, and continue working where we left off. 
+
+## Submit the DMP
+
+While the specific submission process for the DMP will depend on the funding agency and grant, it's useful to note that DMPTool provides useful options for publishing and registering your DMP within the **Finalize/Publish** tab of your project (including the option to generate a DMP ID and add the plan to ORCID):
+
+```{r, echo=FALSE, fig.cap="Options to publish and/or register your plan  "}
+knitr::include_graphics("images/pic12.png")
+```
+
+
+
+
 
 
 
